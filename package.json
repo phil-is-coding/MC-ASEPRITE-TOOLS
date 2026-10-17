@@ -1,0 +1,18 @@
+{
+  "name": "MC-ASEPRITE-TOOLS",
+  "displayName": "MC Aseprite Tools",
+  "description": "Minecraft texture tools for Aseprite. Includes a 3D skin viewer that updates as you paint.",
+  "version": "1.0.0",
+  "publisher": "phil-is-coding",
+  "author": { "name": "Philip Gebhart" },
+  "license": "MIT",
+  "categories": [ "Scripts" ],
+  "contributes": {
+    "scripts": [
+      { "path": "./main.lua" }
+    ],
+    "keys": [
+      { "id": "msv-keys", "path": "./msv.aseprite-keys" }
+    ]
+  }
+}

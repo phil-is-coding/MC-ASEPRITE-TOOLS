@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default shortcut for opening the viewer.
+     Root element is <keyboard>, matching Aseprite's own standalone user.aseprite-*
+     files (<brushes/>, <layouts/>). The <gui> wrapper is only for gui.xml.
+     Users can rebind this in Edit > Keyboard Shortcuts, which takes precedence. -->
+<keyboard version="1">
+  <commands>
+    <key command="msv_open" shortcut="Ctrl+Shift+M" mac="Cmd+Shift+M" />
+  </commands>
+</keyboard>
